@@ -21,11 +21,11 @@ public class FormModel //implements WindowListener
         f.add(l1);
 
         Label l2=new Label("Address::");
-        l2.setBounds(20,40 , 100, 30);
+        l2.setBounds(20,50 , 100, 30);
         f.add(l2);
 
         Label l3=new Label("Email::");
-        l2.setBounds(20,80 , 50, 30);
+        l3.setBounds(20,70 , 50, 30);
         f.add(l3);
 
         Button bt1=new Button("Save");
@@ -36,7 +36,7 @@ public class FormModel //implements WindowListener
             }
         }
         );
-        bt1.setBounds(50, 110, 80, 50);
+        bt1.setBounds(50, 100, 80, 50);
         f.add(bt1); 
     } 
     
